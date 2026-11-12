@@ -4,10 +4,10 @@ Native Julia teaching data and biostatistical inference for proportions
 and rates. This is the Julia sister package to
 [ibist-R](https://github.com/ibist/ibist-R) and
 [ibist-py](https://github.com/ibist/ibist-py). The package/module name is
-`IBist`; the GitHub repository is `ibist/ibist-jl` and the local workspace
+`IBist`; the GitHub repository is `ibist/IBist.jl` and the local workspace
 directory is `IBist.jl`.
 
-This initial development version provides seven datasets and
+This initial release provides seven datasets and
 `or_2x2_ci()` with Wald, Gart, Cornfield, and Baptista–Pike intervals,
 including conditional mid-p modifications and one-sided bounds.
 It requires Julia 1.10 or later. R and Python are not required at runtime.
@@ -18,7 +18,7 @@ The package is not yet registered. Install it from GitHub in Julia:
 
 ```julia
 using Pkg
-Pkg.add(url = "https://github.com/ibist/ibist-jl")
+Pkg.add(url = "https://github.com/ibist/IBist.jl")
 ```
 
 For development, clone the repository and run from its directory:
@@ -79,8 +79,9 @@ julia --project=docs docs/make.jl
 ```
 
 CI checks Julia 1.10 and the current stable Julia on Linux, macOS, and
-Windows, and builds the documentation. No registration or documentation
-deployment runs automatically.
+Windows, and builds the documentation. Registration is initiated manually;
+TagBot creates release tags after General accepts a version. Documentation
+deployment is not automatic. See [release instructions](docs/src/releases.md).
 
 ## License
 

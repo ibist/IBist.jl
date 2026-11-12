@@ -18,5 +18,8 @@ Inspect Git status and preserve unrelated changes.
   interface differences. Add independent checks alongside R comparisons.
 - Use native Julia numerical code except for algorithms designated as
   shared C++ cores. Never maintain a separate handwritten Wang algorithm.
+- Keep rendered documentation, manifests, caches, and compiled output out
+  of Git. The generated files in data/ and test/reference/ are intentional
+  exceptions: they ship with the package and support offline validation.
 - Run focused affected checks during development. Do not stage, commit,
   register, or publish unless requested.

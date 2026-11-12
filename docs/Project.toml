@@ -1,0 +1,7 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+IBist = "9c79dfc7-4690-4002-8335-5dd1a5261058"
+
+[compat]
+Documenter = "1"
+julia = "1.10"

@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 (2026-11-12)
 
 - Establish native Julia package `IBist`, typed interval results,
   DataFrame/Tables.jl output, and bundled teaching datasets.

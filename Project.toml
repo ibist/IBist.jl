@@ -1,7 +1,7 @@
 name = "IBist"
 uuid = "9c79dfc7-4690-4002-8335-5dd1a5261058"
 authors = ["Elizabeth Schifano", "Jun Yan <jun.yan@uconn.edu>"]
-version = "0.1.0-DEV"
+version = "0.1.0"
 
 [deps]
 CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
